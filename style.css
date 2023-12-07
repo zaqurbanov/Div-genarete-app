@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 64.5%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  padding: 50px 50px 10px;
+    margin: 0 auto;
+    
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+h3{
+    font-size: 1.3rem;
+}
+#generate-div{
+    
+    background-color: aqua;
+    border: 1px solid aqua;
+    margin:  30px auto;
+}
+h1{
+    text-align: center;
+}
+label{
+    
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    height: 30px;
+    padding-left: 10px;
+    width: 30% ;
+    border: 3px solid #2E8B57;
+    border-radius: 30px;
+    outline: none;
+    
+}
+input:focus{
+border: 3px solid #e0e0e0;
+outline: #e0e0e0;
+}
+
+#background,
+#borderColor{
+    padding: 0;
+    height: 50px;
+    border-radius: 0;
+}
+#background[type="color"]{
+height: 50px;
+border-radius: 0;
+}
+
+.input{
+    width: 50px;
+    height: 50px;
+    background-color: #2E8B57;
+    border: 1px solid red;
+    border-radius: 30%;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    font-style: italic;
+    line-height: 1.2;
+    font-size: 1.1rem;
+    background-color: black;
+    border-radius: 50px;
+    color: antiquewhite;
+    
+    overflow: hidden;
+  opacity: 0;
+    height: 0px;
+    
+}
+.active{
+    height: auto;
+    opacity: 100;
+    padding: 1.1rem;
+}
