@@ -29,19 +29,19 @@ button.addEventListener("click",function(e){
    generateCss = ""
       
     if(width.value >0){
-        generateCss += `width: ${width.value}px;`
+        generateCss += `width: ${width.value}px; `
 
     }
     if(height.value>0){
-     generateCss += `height: ${height.value}px`
+     generateCss += `height: ${height.value}px; `
 
     }
     if(radius.value>0){
-        generateCss +=`radius: ${radius.value}%`
+        generateCss +=`radius: ${radius.value}%; `
     }
 
     if(border.value>0){
-        generateCss +=`border: ${border.value}px solid ${borderColor.value}`
+        generateCss +=`border: ${border.value}px solid ${borderColor.value}; `
     }
 
     displayUpdate()
